@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+div.container {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+}
+
+.xlarge-font {
+    font-size: 50px;
+    color: rgb(7, 7, 70);
+    text-transform: capitalize;
+    text-decoration: underline;
+
+}
+
+.large-font {
+    font-size: 50px;
+    color: rgb(7, 7, 70);
+    text-transform: capitalize;
+    background-color: rgb(245, 147, 224);
+    border-radius: 20px;
+
+}
+
+.section {
+    padding: 10px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 80px 80px;
+    background-color: rgb(245, 147, 224);
+
+
+}
+
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.text {
+    float: left;
+    width: 60%;
+    padding: 5px;
+}
+
+.images {
+    float: right;
+    width: 40%;
+    padding: 5px;
+}
+
+img {
+    border-radius: 80px 80px;
+    height: auto;
+    max-width: 100%;
+
+}
+
+.image {
+    float: left;
+    width: 40%;
+    padding: 5px;
+}
+
+.text-1 {
+    float: right;
+    width: 60%;
+    padding: 5px;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(245, 147, 224);
+
+}
